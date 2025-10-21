@@ -1,7 +1,7 @@
 Clasificación del rendimiento de soja en Argentina
 ==============================
 
-##*Descripción del dominio y contexto del problema* 
+## **Descripción del dominio y contexto del problema**
 
 El dominio seleccionado corresponde al sector agropecuario, específicamente al 
 cultivo de soja en Argentina. 
