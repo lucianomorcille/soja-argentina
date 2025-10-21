@@ -24,14 +24,14 @@ interesante elegirlo debido a que aparte de esta carrera estoy estudiando Licenc
 en Ciencias Ambientales en la Facultad de Agronomía, por lo que busqué un tema en el 
 que pueda combinar ambas carreras. 
 
-Objetivos generales 
+## **Objetivos generales** 
 
 -Clasificar el rendimiento de soja en categorías de productividad (“Bajo”, “Medio” y “Alto”) 
 utilizando modelos de clasificación supervisada, con el fin de identificar las provincias y 
 campañas agrícolas más productivas, y facilitar la toma de decisiones en la planificación 
 del sector agropecuario. 
 
-Objetivos específicos 
+## **Objetivos específicos** 
 
 -Analizar la evolución temporal y espacial de la producción de soja en Argentina.
 
@@ -46,7 +46,7 @@ para mejorar la precisión del modelo predictivo.
 -Evaluar y comparar el desempeño de distintos modelos mediante métricas de error y 
 precisión.
 
-Descripción del dataset y origen
+## **Descripción del dataset y origen**
 
 El dataset principal se titula “soja-serie-1941-2023.csv”. El mismo fue obtenido de la pagina https://www.datos.gob.ar/dataset/agroindustria-soja---siembra-cosecha-produccion-rendimiento y contiene aproximadamente más de 80 años de registros a nivel provincial y departamental. Las variables incluidas son:
 
