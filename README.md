@@ -3,48 +3,43 @@ Clasificación del rendimiento de soja en Argentina
 
 ## **Descripción del dominio y contexto del problema**
 
-El dominio seleccionado corresponde al sector agropecuario, específicamente al 
-cultivo de soja en Argentina. 
+El dominio seleccionado corresponde al sector agropecuario, específicamente al cultivo de soja 
+en Argentina. 
+El dataset utilizado contiene información histórica de la serie 1941–2023, con registros por 
+provincia y departamento. Este tema resulta de gran interés debido a la relevancia económica y 
+ambiental de la soja en el país, siendo uno de los principales cultivos de exportación y un 
+indicador del impacto de las condiciones climáticas sobre la producción agrícola. 
 
-El dataset utilizado contiene información histórica de la serie 1941–2023, con registros 
-por provincia y departamento. Este tema resulta de gran interés debido a la relevancia 
-económica y ambiental de la soja en el país, siendo uno de los principales cultivos de 
-exportación y un indicador del impacto de las condiciones climáticas sobre la 
-producción agrícola. 
+El problema se enmarca en el ámbito del Aprendizaje Automático aplicado al análisis de datos 
+agrícolas, donde se busca utilizar técnicas de modelado predictivo para comprender los factores 
+que influyen en el rendimiento y anticipar posibles escenarios productivos. 
 
-El problema se enmarca en el ámbito del Aprendizaje Automático aplicado al análisis de 
-datos agrícolas, donde se busca utilizar técnicas de modelado predictivo para 
-comprender los factores que influyen en el rendimiento y anticipar posibles escenarios 
-productivos. 
-
-La elección de este dominio surge del interés en integrar aspectos productivos y 
-ambientales, explorando cómo las variables agronómicas y meteorológicas afectan la 
-productividad del cultivo en distintas regiones y campañas. Además, me resultó 
-interesante elegirlo debido a que aparte de esta carrera estoy estudiando Licenciatura 
-en Ciencias Ambientales en la Facultad de Agronomía, por lo que busqué un tema en el 
-que pueda combinar ambas carreras. 
+La elección de este dominio surge del interés en integrar aspectos productivos y ambientales, 
+explorando cómo las variables agronómicas y meteorológicas afectan la productividad del cultivo 
+en distintas regiones y campañas. Además, me resultó interesante elegirlo debido a que aparte 
+de esta carrera estoy estudiando Licenciatura en Ciencias Ambientales en la Facultad de 
+Agronomía, por lo que busqué un tema en el que pueda combinar ambas carreras.
 
 ## **Objetivos generales** 
 
--Clasificar el rendimiento de soja en categorías de productividad (“Bajo”, “Medio” y “Alto”) 
-utilizando modelos de clasificación supervisada, con el fin de identificar las provincias y 
-campañas agrícolas más productivas, y facilitar la toma de decisiones en la planificación 
-del sector agropecuario. 
+El objetivo general es predecir el rendimiento de soja (kg/ha) en Argentina a partir de variables 
+productivas y climáticas mediante modelos de aprendizaje automático, con el fin de identificar 
+los factores que influyen en la productividad y generar estimaciones útiles para la planificación 
+agrícola.
 
 ## **Objetivos específicos** 
 
--Analizar la evolución temporal y espacial de la producción de soja en Argentina.
+-Analizar la evolución temporal y espacial de la producción de soja en Argentina.  
 
--Identificar las variables más influyentes sobre el rendimiento promedio del cultivo. 
+-Identificar las variables que presentan mayor relación con el rendimiento del cultivo.  
 
--Implementar un enfoque de clasificación para categorizar el rendimiento en niveles 
-“Bajo”, “Medio” y “Alto”. 
+-Incorporar variables climáticas (temperatura media, precipitación total y humedad 
+relativa) para mejorar la capacidad predictiva de los modelos.  -Implementar y comparar distintos modelos de regresión.  
 
--Incorporar variables climáticas (temperatura media, precipitaciones, humedad relativa) 
-para mejorar la precisión del modelo predictivo. 
+-Evaluar el desempeño de los modelos mediante métricas de error.  
 
--Evaluar y comparar el desempeño de distintos modelos mediante métricas de error y 
-precisión.
+-Determinar cuáles son los factores con mayor influencia sobre el rendimiento de la soja. 
+
 
 Project Organization
 ------------
