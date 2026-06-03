@@ -36,8 +36,9 @@ Por último, se hizo una verificacón de las provincias de las cuales hay regist
 
 Como resultado de este proceso se obtuvo un dataset consolidado a nivel provincial y anual, preparado para su integración con las variables climáticas y su posterior utilización en modelos de regresión orientados a predecir el rendimiento de soja en Argentina.
 
-El segundo dataset es de mi autoría y se denomina "registro_climatico_por provincia_1981_2023". El mismo lo realicé recopilando datos meteorológicos de las distintas provincias, obtenidos de la página "NASA Power".
+El segundo dataset es de mi autoría y se denomina **"registro_climatico_por provincia_1981_2023"**. El mismo lo realicé recopilando datos meteorológicos de las distintas provincias, obtenidos de la página "NASA Power".
 Contiene las siguientes variables:
+
 *provincia*: se refiere a la provincia a la cual corresponden los datos.
 
 *anio*: año en el que fueron recolectados esos datos.
