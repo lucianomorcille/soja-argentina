@@ -1,4 +1,4 @@
-Clasificación del rendimiento de soja en Argentina
+Predicción del rendimiento de soja en Argentina 
 ==============================
 
 ## **Descripción del dominio y contexto del problema**
