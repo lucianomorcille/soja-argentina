@@ -46,43 +46,6 @@ para mejorar la precisión del modelo predictivo.
 -Evaluar y comparar el desempeño de distintos modelos mediante métricas de error y 
 precisión.
 
-## **Descripción del dataset y origen**
-
-El dataset principal se titula “soja-serie-1941-2023.csv”. El mismo fue obtenido de la pagina https://www.datos.gob.ar/dataset/agroindustria-soja---siembra-cosecha-produccion-rendimiento y contiene aproximadamente más de 80 años de registros a nivel provincial y departamental. Las variables incluidas son:
-
-
-*cultivo_nombre*: nombre del cultivo, que en este caso corresponde a la soja
-
-*anio*: año del registro
-
-*campania*: campaña agrícola correspondiente
-
-*provincia_nombre y provincia_id*: identifican la provincia donde se cultiva
-
-*departamento_nombre y departamento_id*: indican la subdivisión administrativa dentro de la provincia
-
-*superficie_sembrada_ha*: superficie sembrada, expresada en hectáreas
-
-*superficie_cosechada_ha*: superficie cosechada, expresada en hectáreas
-
-*produccion_tm*: producción total, medida en toneladas métricas
-
-*rendimiento_kgxha*: rendimiento promedio, expresado en kilogramos por hectárea. 
-
-El otro dataset "registro_climatico_por provincia_1981_2023" es de mi autoría con información que recopilé de la página NASA POWER (https://power.larc.nasa.gov/). El mismo contiene la siguientes variables:
-
-*provincia*: se refiere a la provincia a la cual corresponden los datos.
-
-*anio*: año en el que fueron recolectados esos datos.
-
-*precipitacion_total*: precipitación total en el año por provincia.
-
-*temperatura_media*: temperatura media medida por año y por provincia.
-
-*humedad_relativa*: humedad relativa medida por año y por provincia.
-
-Ya tengo todos los datos pero aún no terminé de completar este dataset. En estos días subiré el archivo actualizado y completo.
-
 Project Organization
 ------------
 
