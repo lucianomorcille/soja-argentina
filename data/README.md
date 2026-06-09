@@ -2,7 +2,7 @@
 
 ## **Descripción del dataset y orígen**
 
-El dataset principal utilizado corresponde a la serie histórica de producción de soja en Argentina para el período 1941-2023. Cada registro representa información productiva a nivel departamental e incluye variables relacionadas con superficie sembrada, superficie cosechada, producción y rendimiento.
+El dataset principal utilizado corresponde a la serie histórica de producción de soja en Argentina para el período 1941-2023. Cuenta con 12316 registros. Cada registro representa información productiva a nivel departamental e incluye variables relacionadas con superficie sembrada, superficie cosechada, producción y rendimiento.
 El mismo fue obtenido de la página web https://www.datos.gob.ar/dataset/agroindustria-soja---siembra-cosecha-produccion-rendimiento y contiene aproximadamente más de 80 años de registros a nivel provincial y departamental. 
 Las principales variables del conjunto de datos son:
 
@@ -34,7 +34,7 @@ Posteriormente, se recalculó el rendimiento provincial en kilogramos por hectá
 
 Por último, se hizo una verificacón de las provincias de las cuales hay registros en este dataset. Esto sirvió para realizar el segundo dataset ("registro_climatico_por provincia_1981_2023")
 
-Como resultado de este proceso se obtuvo un dataset consolidado a nivel provincial y anual, preparado para su integración con las variables climáticas y su posterior utilización en modelos de regresión orientados a predecir el rendimiento de soja en Argentina.
+Como resultado de este proceso se obtuvo un dataset de 631 regisrtros consolidado a nivel provincial y anual, preparado para su integración con las variables climáticas y su posterior utilización en modelos de regresión orientados a predecir el rendimiento de soja en Argentina.
 
 El segundo dataset es de mi autoría y se denomina **"registro_climatico_por provincia_1981_2023"**. El mismo lo realicé recopilando datos meteorológicos de las distintas provincias, obtenidos de la página "NASA Power".
 Contiene las siguientes variables:
