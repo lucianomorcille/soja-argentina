@@ -1,44 +1,41 @@
-Predicción del rendimiento de soja en Argentina 
-==============================
+# Predicción del rendimiento de soja en Argentina
 
-## **Descripción del dominio y contexto del problema**
+## Contexto del problema
 
-El dominio seleccionado corresponde al sector agropecuario, específicamente al cultivo de soja 
-en Argentina. 
-El dataset utilizado contiene información histórica de la serie 1941–2023, con registros por 
-provincia y departamento. Este tema resulta de gran interés debido a la relevancia económica y 
-ambiental de la soja en el país, siendo uno de los principales cultivos de exportación y un 
-indicador del impacto de las condiciones climáticas sobre la producción agrícola. 
+La soja constituye uno de los cultivos más importantes de Argentina debido a su relevancia económica y su participación en las exportaciones agroindustriales del país. La producción de este cultivo se encuentra influenciada por diversos factores, entre ellos las condiciones climáticas, la superficie sembrada, la superficie cosechada y las características productivas de cada región.
 
-El problema se enmarca en el ámbito del Aprendizaje Automático aplicado al análisis de datos 
-agrícolas, donde se busca utilizar técnicas de modelado predictivo para comprender los factores 
-que influyen en el rendimiento y anticipar posibles escenarios productivos. 
+Comprender cómo estos factores afectan el rendimiento resulta fundamental para mejorar la planificación agrícola, optimizar la utilización de recursos y anticipar posibles escenarios productivos. En este contexto, el análisis de datos históricos permite estudiar el comportamiento de la producción de soja a lo largo del tiempo y detectar patrones asociados a variaciones climáticas y productivas.
 
-La elección de este dominio surge del interés en integrar aspectos productivos y ambientales, 
-explorando cómo las variables agronómicas y meteorológicas afectan la productividad del cultivo 
-en distintas regiones y campañas. Además, me resultó interesante elegirlo debido a que aparte 
-de esta carrera estoy estudiando Licenciatura en Ciencias Ambientales en la Facultad de 
-Agronomía, por lo que busqué un tema en el que pueda combinar ambas carreras.
+Para el desarrollo de este proyecto se utilizaron datos históricos de producción de soja en Argentina correspondientes al período 1941-2023, complementados con información climática provincial del período 1981-2023 obtenida a partir de la plataforma NASA POWER.
 
-## **Objetivos generales** 
+## Justificación
 
-El objetivo general es predecir el rendimiento de soja (kg/ha) en Argentina a partir de variables 
-productivas y climáticas mediante modelos de aprendizaje automático, con el fin de identificar 
-los factores que influyen en la productividad y generar estimaciones útiles para la planificación 
-agrícola.
+La elección de este tema se fundamenta en la importancia que posee la producción de soja para la economía argentina y en la creciente necesidad de comprender los efectos que las condiciones ambientales ejercen sobre la productividad agrícola.
 
-## **Objetivos específicos** 
+Además, el proyecto permite integrar conocimientos provenientes de dos áreas de formación complementarias: la Ciencia de Datos y las Ciencias Ambientales. Esta combinación posibilita abordar un problema real mediante técnicas de análisis de datos y modelado predictivo, utilizando información climática y productiva para generar conocimiento útil para la toma de decisiones.
 
--Analizar la evolución temporal y espacial de la producción de soja en Argentina.  
+Asimismo, la disponibilidad de registros históricos extensos y de variables meteorológicas relevantes convierte a este problema en un caso adecuado para la aplicación de técnicas de aprendizaje automático.
 
--Identificar las variables que presentan mayor relación con el rendimiento del cultivo.  
+## Aplicación del Aprendizaje Automático
 
--Incorporar variables climáticas (temperatura media, precipitación total y humedad 
-relativa) para mejorar la capacidad predictiva de los modelos.  -Implementar y comparar distintos modelos de regresión.  
+El rendimiento de los cultivos depende de múltiples variables que interactúan de manera compleja y que no siempre presentan relaciones lineales. Debido a ello, los métodos tradicionales de análisis pueden resultar insuficientes para capturar completamente los patrones presentes en los datos.
 
--Evaluar el desempeño de los modelos mediante métricas de error.  
+El Aprendizaje Automático permite construir modelos capaces de identificar relaciones entre variables productivas y climáticas a partir de ejemplos históricos, generando predicciones sobre nuevos casos sin necesidad de definir explícitamente todas las reglas que intervienen en el proceso.
 
--Determinar cuáles son los factores con mayor influencia sobre el rendimiento de la soja. 
+En este proyecto se aborda un problema de regresión supervisada, ya que se dispone de observaciones históricas donde el rendimiento de soja es conocido y se busca predecir dicho valor a partir de un conjunto de variables explicativas. La aplicación de modelos de aprendizaje automático permite evaluar el aporte de diferentes factores al rendimiento del cultivo y generar estimaciones que pueden resultar útiles para la planificación agrícola y el análisis de escenarios futuros.
+
+## Objetivo general
+
+Predecir el rendimiento de soja (kg/ha) en Argentina a partir de variables productivas y climáticas mediante modelos de aprendizaje automático, con el fin de identificar los factores que influyen en la productividad y generar estimaciones útiles para la planificación agrícola.
+
+## Objetivos específicos
+
+* Analizar la evolución temporal y espacial de la producción de soja en Argentina.
+* Identificar las variables que presentan mayor relación con el rendimiento del cultivo.
+* Incorporar variables climáticas (temperatura media, precipitación total y humedad relativa) para mejorar la capacidad predictiva de los modelos.
+* Implementar y comparar distintos modelos de regresión.
+* Evaluar el desempeño de los modelos mediante métricas de error.
+* Determinar cuáles son los factores con mayor influencia sobre el rendimiento de la soja.
 
 
 Project Organization
